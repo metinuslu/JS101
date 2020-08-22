@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+
+<body>
+	<h1>Merhaba Dünya</h1>
+<!-- 	<script>
+	var i = 20;
+	var j = 30;
+	var k = 40;
+	alert("Sum of Variables: " + (i+j+k))
+	alert("Sum of Variables: " + i+j+k)
+	</script> -->
+	
+	<p id="Para1">Paragraf 1</p>
+	
+	<!--<button onclick="tikla(this)">Tıkla</button>-->
+	<button onmouseover="mouseover()" onmouseout="mouseout()">TIKLA</button>
+	
+<!-- <script>
+	
+	function tikla(){
+		alert("Butona Tikladiniz")
+	}	
+	</script> -->
+	
+<!-- 	<script>
+	function tikla(element){
+		element.innerHTML = 'ButonaTiklandi'
+	}
+	</script> -->
+	<script>
+	function mouseover(){
+		var element = document.getElementById("Para1")
+		element.innerHTML = "Mouse Over"
+	}
+	
+	function mouseout(){
+		var element = document.getElementById("Para1")
+		element.innerHTML = "Mouse Out"
+	}
+	</script>
+	
+</body>
+</html>
